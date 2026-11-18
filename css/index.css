@@ -1,0 +1,42 @@
+/* banner start */
+.banbg{
+    background: url(../images/banbg.jpg) no-repeat center / cover;
+    text-align: center; 
+    color: white;
+}
+.banner_wrapper{
+    padding:50px;
+}
+.banner_wrapper p{
+    padding-bottom: 20px;
+}
+.banner_wrapper label{
+    margin: 10px 0;
+}
+/* banner end */
+
+/* collage of vibrant plant photos start */
+.plant_collage_wrapper h2{
+    margin-bottom: 30px;
+}
+.plant-gallery{
+    display: flex;
+    justify-content: space-between;
+}
+.plant-gallery img{
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+/* collage of vibrant plant photos end */
+
+/* blog start */
+.blog-posts{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blog-posts:last-child{
+    margin-top: 20px;
+}
+/* blog end */

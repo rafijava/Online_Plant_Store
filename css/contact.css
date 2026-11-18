@@ -1,0 +1,88 @@
+/* live chat start */
+#live_chat{
+    text-align: center;
+}
+.live_chat_wrapper p{
+    margin-bottom: 20px;
+}
+.live_chat_wrapper a{
+    text-decoration: none;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+/* live chat end */
+
+/* contact form start */
+.contact_form .form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.message_input{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.message_input input{
+    width: 48%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #1d1d1d;
+    border-radius: 10px;
+}
+.message_input input:focus{
+    outline: 1px solid #31B164;
+    border: 1px solid #31B164;
+}
+.message_send{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.message_send textarea{
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid #1d1d1d;
+    border-radius: 10px;
+}
+.message_send textarea:focus{
+    outline: 1px solid #31B164;
+    border: 1px solid #31B164;
+}
+
+/* contact form end */
+
+/* social links */
+#social_links{
+    padding: 50px 0;
+    text-align: center;
+}
+.social_wrapper p{
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.social_wrapper a{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.social_wrapper a:hover{
+    background-color: #28a745;
+    color: white;
+}
+/* social links end */

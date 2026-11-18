@@ -1,0 +1,30 @@
+/* Founders' Passion and Mission start */
+#founders-passion-mission h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.passion_mission_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* Founders' Passion and Mission end */
+
+/* Eco-Friendly Initiatives start */
+.eco-friendly h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* Eco-Friendly Initiatives end */
+
+/* Meet Our Team start */
+.meet-our-team h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.passion_mission_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* Meet Our Team end */

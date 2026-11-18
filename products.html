@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Store - Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<!-- Nav start -->
+    <nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Plant Store</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link"  href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- nav end -->
+
+<!-- monstera growth video start -->
+<section id="monstera-growth" class="monstera-video">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="video_wrapper">
+                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/1LEsgLwQ8nE?si=JEuIs88FM1GzZC88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- monstera growth video end -->
+
+<!-- species information start -->
+<section id="species-info" class="species-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Monstera Deliciosa</h1>
+                <h2>Quick Care Requirements</h2>
+                <div class="card" style="width: 100%; text-align:center; margin-top: 20px;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>Sunlight:</strong> Bright Indirect Sunlight</li>
+                        <li class="list-group-item"><strong>Water:</strong> Keep soil moist but not waterlogged</li>
+                        <li class="list-group-item"><strong>Toxicity:</strong> Mildly Toxic to Pets (Calcium Oxalate)</li>
+                        <li class="list-group-item"><strong>Repotting:</strong> Every 12-18 months in rich, peat-based soil</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- species information end -->
+
+<!-- parent plant tips -->
+<section id="parent-plant-tips" class="parent-plant-tips">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Plant Parent Tips</h2>
+                <div class="tips_wrapper">
+                    <div class="card" style="width: 30%;">
+                        <div class="card-body">
+                            <img src="images/headshot1.jpg" alt="" >
+                            <h5 class="card-title">Sarah K.</h5>
+                            <h6>Gardener</h6>
+                            <p class="card-text">"Giving mine bright indirect light close to an East-facing window, and the fenestrations (leaf splits) doubled in three months! Definitely wipe down leaves once a week."</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 30%;">
+                        <div class="card-body">
+                            <img src="images/headshot2.jpg" alt="" >
+                            <h5 class="card-title">Dave M.</h5>
+                            <h6>Shop Keeper</h6>
+                            <p class="card-text">"Giving mine bright indirect light close to an East-facing window, and the fenestrations (leaf splits) doubled in three months! Definitely wipe down leaves once a week."</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 30%;">
+                        <div class="card-body">
+                            <img src="images/headshot3.jpg" alt="" >
+                            <h5 class="card-title">John D.</h5>
+                            <h6>Engineer</h6>
+                            <p class="card-text">"Giving mine bright indirect light close to an East-facing window, and the fenestrations (leaf splits) doubled in three months! Definitely wipe down leaves once a week."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- parent plant tips -->
+
+<!-- add to cart -->
+<section id="add-to-cart" class="add-to-cart">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Choose Your Plant</h2>
+                <div class="cart_wrapper">
+                    <form action="cart.html" method="post">
+                        <label for="plant-size">Select Your Plant:</label>
+                        <select id="plant-size" name="plant-size">
+                            <option value="">Choose</option>
+                            <option value="small">Monstera deliciosa ($45.00)</option>
+                        </select> <br>
+                        <label for="quantity">Quantity:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" value="1"> <br>
+                        <label for="size">Select Plant Size</label>
+                        <select id="size" name="size">
+                            <option value="">Choose</option>
+                            <option value="small">Small(6-12")</option>
+                            <option value="medium">Medium(12-24")</option>
+                            <option value="large">Large(24+")</option>
+                        </select> <br>
+                        <label for="additional">Additional Accessories for your plant:</label> <br>
+                        <input type="checkbox" id="soil" name="additional" value="soil"> Add Ceramic planter & Premium soil mixture (+$15.00) <br>
+                        <input type="checkbox" id="stand" name="additional" value="stand"> Add Mid-Century Wooden Stand (+$20.00) <br>
+                        <input type="checkbox" id="pot" name="additional" value="pot"> Add Terracotta Pot (+$10.00) <br>
+                        <button type="submit">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- add to cart -->
+
+<!-- footer start -->
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer_wrapper">
+                    <p>&copy; 2026 Plant Store. All rights reserved.</p>
+                    <span id="datetime-display"></span>
+                </div>
+            </div>
+        </div>
+</footer>
+<!-- footer end -->
+<script src="js/time.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

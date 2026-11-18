@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Store - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<!-- Nav start -->
+    <nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Plant Store</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- nav end -->
+  
+<!-- banner start -->
+<div class="banner banbg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="banner_wrapper">
+                    <h1>Welcome to !</h1>
+                    <p>Try a matchmaking feature to find the perfect plant for your space.</p>
+                    <form action="" method="post">
+                        <label for="sunlight">How sunlight do you get?</label> 
+                        <select id="sunlight" name="sunlight">
+                            <option value="">Choose</option>
+                            <option value="low">Low</option>
+                            <option value="medium">Medium</option>
+                            <option value="high">High</option>
+                        </select> <br>
+                        <label for="care">How much care can you provide?</label> 
+                        <select id="care" name="care">
+                            <option value="">Choose</option>
+                            <option value="low">Low</option>
+                            <option value="medium">Medium</option>
+                            <option value="high">High</option>
+                        </select> <br>
+                        <label for="pet-friendliness">Do you have pets?</label> 
+                        <select id="pet-friendliness" name="pet-friendliness">
+                            <option value="">Choose</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select> <br>
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- banner end -->
+
+<!-- collage of vibrant plant photos start -->
+<section id="plant-collage">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="plant_collage_wrapper">
+                    <h2>Our Vibrant Plant Collection</h2>
+                    <div class="plant-gallery">
+                        <img src="images/plant1.jpg" alt="Plant 1">
+                        <img src="images/plant2.jpg" alt="Plant 2">
+                        <img src="images/plant3.jpg" alt="Plant 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- collage of vibrant plant photos end -->
+
+<!-- Sections for blogs end -->
+<section id="blogs">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="blogs_wrapper">
+                    <h2>Latest from Our Blog</h2>
+                    <div class="blog-posts">
+                        <div class="card" style="width: 23%;">
+                            <div class="card-body">
+                                <h5 class="card-title">Popular Houseplants</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                                <a href="#" class="card-link">See More</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 23%;">
+                            <div class="card-body">
+                                <h5 class="card-title">Curated Collections</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                                <a href="#" class="card-link">See More</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 23%;">
+                            <div class="card-body">
+                                <h5 class="card-title">Plant Care Guides</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                                <a href="#" class="card-link">See More</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 23%;">
+                            <div class="card-body">
+                                <h5 class="card-title">About Blooming Oasis</h5>
+                                <p class="card-text">Blooming Oasis is a modern indoor jungle marketplace dedicated to bringing nature directly into.</p>
+                                <a href="#" class="card-link">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sections for blogs start -->
+
+<!-- footer start -->
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer_wrapper">
+                    <p>&copy; 2026 Plant Store. All rights reserved.</p>
+                    <span id="datetime-display"></span>
+                </div>
+            </div>
+        </div>
+</footer>
+<!-- footer end -->
+<script src="js/time.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

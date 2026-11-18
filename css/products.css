@@ -1,0 +1,50 @@
+/* video start */
+.video_wrapper iframe{
+    border:10px solid #086400;
+    border-radius:5px;
+}
+/* video end */
+
+/* species info start */
+.species-info h1 {
+    text-align: center;
+    color: #021800;
+    margin-bottom: 50px;
+}
+/* species info end */
+
+/* parent plant tips */
+.parent-plant-tips h2{
+    margin-bottom: 20px;
+}
+.tips_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tips_wrapper .card img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.tips_wrapper .card h6{
+    margin-bottom: 30px;
+}
+/* parent plant tips end */
+
+/* add to cart start */
+.add-to-cart h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cart_wrapper{
+    text-align: center;
+}
+.cart_wrapper label{
+    margin-top: 20px;
+}
+.cart_wrapper button{
+    margin-top: 20px;
+}
+/* add to cart end */
